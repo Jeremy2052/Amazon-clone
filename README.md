@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -66,3 +67,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+=======
+# Amazon-clone
+Amazon clone front end using React.js and Firebase. Javascript used for functionalities such as adding products to cart and and changing quantity amount. Login authorization handled with Firebase.
+>>>>>>> 8d132979a04951fb692794ab41936534d4f72666
