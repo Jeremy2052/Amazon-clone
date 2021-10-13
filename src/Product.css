@@ -1,44 +1,47 @@
-.product{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end;
-    max-height: 400px;
-    min-width: 100px;
-    margin: 10px;
-    padding: 20px;
-    width: 100%;
-    background-color: white;
-    z-index: 1;
-    border-radius: 3px;
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  max-height: 400px;
+  min-width: 100px;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+  border-radius: 3px;
 }
 
-.product__rating{
-    /* Put rating stars in a row */
-    display: flex;
+.product__rating {
+  /* Put rating stars in a row */
+  display: flex;
 }
 
-.product__price{
-    margin-top: 5px;
+.product__price {
+  margin-top: 5px;
 }
 
-.product__info{
-    height: 100px;
-    margin-bottom: 15px;
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
 }
 
 /* Direct child of product on image
 So don't need to make a className */
-.product > img{
-    max-height: 200px;
-    width: 100%;
-    object-fit: contain;
-    margin-bottom: 15px;
+.product > img {
+  max-height: 200px;
+  width: 100%;
+  object-fit: contain;
+  margin-bottom: 15px;
 }
 
-.product > button{
-    background-image:linear-gradient(to right, rgb(157, 196, 255), rgb(71, 172, 255), rgb(167, 212, 255));
-    border: 1px solid;
-    border-color: rgb(33, 141, 230) rgb(6, 120, 155) rgb(0, 51, 94);
+.product > button {
+  background-image: linear-gradient(to right, rgb(157, 196, 255), rgb(71, 172, 255), rgb(167, 212, 255));
+  border: 1px solid;
+  border-color: rgb(33, 141, 230) rgb(6, 120, 155) rgb(0, 51, 94);
+}
 
+.product > button:hover {
+  cursor: pointer;
 }
